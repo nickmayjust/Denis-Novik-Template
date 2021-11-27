@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 946px;
+}
+
+.header_inner {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    transition: .8s;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #828282;
+}
+
+.nav__link:hover {
+    color: black;
+    transform: scale(1.05);
+}
+
+.intro {
+    padding: 45px;
+}
+
+.intro__titles {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.intro__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.intro__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 300px;
+    margin-bottom: 10px;
+}
+
+.intro__img {
+    text-align: center;
+    margin-bottom: 110px;
+    transition: .8s;
+}
+
+.intro__img:hover {
+    transform: scale(1.05);
+}
+
+.aboutme {
+    background-color: #F6F6F6;
+}
+
+.aboutme__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.aboutme__p1 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.aboutme__p2 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.aboutme__p3 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 120px;
+}
+
+.skills__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.skills__p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
+.skills__items {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.skills__item {
+    transition: .8s;
+}
+
+.skills__item:hover {
+    transform: scale(1.05);
+}
+
+.skills__item__img {
+    padding: 0 40px 25px 40px;
+}
+
+.skills__item__name {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #5a5a5a;
+    padding-bottom: 50px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+}
+
+.portfolio__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.portfolio__item {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.portfolio__item__img {
+    padding-bottom: 45px;
+    transition: .8s;
+}
+
+.portfolio__item__img:hover {
+    transform: scale(1.05);
+}
+
+
+.portfloio__item__p{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contacts__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.contacts__p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.contacts__button {
+    text-align: center;
+    border-radius: 50;
+    padding-top: 30px;
+    transition: all 0.8s
+}
+
+.contacts__button:hover {
+    transform: scale(1.05);
+}
+
+.contacts__button_click {
+    padding: 10px 30px;
+    background-color: #000;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.contacts__social__images {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+    margin: auto;
+    padding-top: 85px;
+}
+
+.contacts__social__img {
+    transition: .8s;
+}
+
+.contacts__social__img:hover {
+    transform: scale(1.05);
+}
+
+.contacts__footer__text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    padding-top: 45px;
+    padding-bottom: 120px;
+}
